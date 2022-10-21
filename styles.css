@@ -1,240 +1,233 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('http://fonts.cdnfonts.com/css/lab-grotesque');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("http://fonts.cdnfonts.com/css/lab-grotesque");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.h-header-content{
-
-    display: flex;
-    padding: 4em 8em;
-     
-    
-    flex-direction: column;
-    
-    align-items: center;
-    text-align: center;
+.h-header-content {
+  display: flex;
+  padding: 4em 8em;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .h1_h-header {
-    display: block;
-    margin-bottom: 0.25em;
-    font-family: "lab grotesque",Arial, sans-serif;
-    color: #302357;
-    font-size: 4rem;
-    line-height: 1.0625em;
-    font-weight: 900;
-    
+  display: block;
+  margin-bottom: 0.25em;
+  font-family: "lab grotesque", Arial, sans-serif;
+  color: #302357;
+  font-size: 4rem;
+  line-height: 1.0625em;
+  font-weight: 900;
 }
- 
 
 .para {
-    color: #737980;
-    font-size: 1.25rem;
-    line-height: 1.4em;
-    width: 80%;
-    font-family: "Inter",sans-serif;
-    font-weight: 400;
-    font-size: 24px;     
+  color: #737980;
+  font-size: 1.25rem;
+  line-height: 1.4em;
+  width: 80%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
 }
 
-.button-blue{
-    margin-top: 1.5em;
-    padding: 1em 3em; 
-    
-    background-color: #31a8fe;
-    align-items: center;
- 
-    border-radius: 5px;
-   
-    box-shadow: none;
-    -webkit-transition: all .25s ease;
-    transition: all .25s ease;
-    color: #fff;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    line-height: 24px;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: .2px;
-    text-decoration: none;   
+.button-blue:hover {
+    border-style: none;
+    background-color: #018ef5;
+    box-shadow: 0 0 5px 0 rgb(49 168 254 / 20%), 0 5px 10px 0 rgb(49 168 254 / 20%), 0 10px 20px 0 rgb(49 168 254 / 20%), 0 20px 40px 0 rgb(49 168 254 / 10%);
 }
 
-.button-blue:hover{
-    background-color: #24a0ed;
-    box-shadow: 0px 2px 2px  #24a0ed;
-
+a:hover {
+  text-decoration: none;
 }
 
-
-a:hover{
-    text-decoration: none;
+.large_image {
+  width: 100%;
 }
-.button-text{
-    flex: 0 0 auto;
-    font-family: lab grotesque,Arial,sans-serif;
+
+.features {
+  font-family: Inter, sans-serif;
+  color: #878e96;
+  font-size: 0.75rem;
+  line-height: 1em;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.company_logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 2%;
+  margin-top: 10px;
+  
+}
+.button{
+    background-color: #31A8FE;
+    width: 100px;
+}
+.btn_text{
+    font-family: 'Lab Grotesque',Arial,sans-serif;
     font-size: 1.125rem;
     line-height: 1.33em;
     font-weight: 500;
-    letter-spacing: .5px;
+    letter-spacing: .5px;    
+}
+.footer-press-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.large_image{
-    width: 100%;
- 
+.button-text:hover,
+.button-text {
+  text-decoration: none;
+  color: white;
 }
-
-.features{
-    font-family: Inter,sans-serif;
-    color: #878e96;
-    font-size: .75rem;
-    line-height: 1em;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-margin-top: 20px;
-}
-
-.footer-press-logo-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.button-text:hover, .button-text{     
-        text-decoration: none;
-        color: white;
-  
-}
-
-
 
 .header-press-logo-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  gap: 3em;
+  justify-items: center;
+}
+
+.banner_image{
+    background-image: url("banner1.png");
  
-    display: flex; 
-    justify-content: center; 
-    margin-top: 1em;      
-    gap: 3em;
-    justify-items: center; 
     
-}
-
-.portfolio-heading{
-    width: 100%;
-}
-
-.portfolio-heading h1{ 
-        padding: 0;  
-        flex: 1;
-        font-family: lab grotesque,Arial,sans-serif;
-        color: #302357;
-        font-size: 3.5rem;
-        line-height: 1.14em;
-        font-weight: 900;
-        white-space: "break-spaces";
-        text-align: center;
-        width: 80%;
-        margin: auto;
-       
-}
-
-.para2{
-    width: 70%;
-    text-align: center;
-    margin: auto;
-}
-
-.carosel_cards{
-
-    border: 3px solid #F1F3F5;
-    width: 80%;
-    padding: 2.5em 3em 2.5em 4em;
-    margin: auto;
- 
-    justify-content: space-between;
- 
-    align-items: center;
-    display: flex;
-    border-radius: 10px;
-   
-    background-position: 100% 50%;
     background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    border: 3px solid #CBCED1;
-    border-radius: 15px;
-    font-size: 32px;
-    padding: 10px;
-    
-    
-}
-
-.carousel-control-next-icon:hover , .carousel-control-prev-icon:hover {
-    border: 2px solid black;
+  
+    width: 100%;
+    margin:0 auto;
+    height: 80vh;
+    background-position: inherit;
+    background-size:cover ;
  
 }
-.carousel-control-prev-icon{
-    color: black;
-    background-color: black;
+
+.portfolio-heading {
+  width: 100%;
 }
- 
+
+.portfolio-heading h1 {
+  padding: 0;
+  flex: 1;
+  font-family: lab grotesque, Arial, sans-serif;
+  color: #302357;
+  font-size: 3.5rem;
+  line-height: 1.14em;
+  font-weight: 900;
+  white-space: "break-spaces";
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.para2 {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.carosel_cards {
+  border: 3px solid #f1f3f5;
+  width: 80%;
+  padding: 2.5em 3em 2.5em 4em;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  background-position: 100% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-next-icon,
 .carousel-control-prev-icon {
-    background-image: url("next.png"); 
+  border: 1px solid #cbced1;
+  border-radius: 15px;
+  font-size: 32px;
 }
 
- .h3_heading {
-    font-family: "lab grotesque",Arial,sans-serif;
-    color: #302357;
-    font-size: 2rem;
-    line-height: 1.25em;
-    font-weight:bolder;
-     
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+  border: 1px solid #845ef7;
+  padding: 10px;
+}
+.carousel-control-prev-icon {
+  background-image: url("prev.png") !important;
+  padding: 5px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("next.png") !important;
+}
+
+.h3_heading {
+  font-family: "lab grotesque", Arial, sans-serif;
+  color: #302357;
+  font-size: 2rem;
+  line-height: 1.25em;
+  font-weight: bolder;
 }
 
 .paragraph-small {
-    color: #878e96;
-    font-size: 1.0rem;
-    line-height: 1.5em;
-    white-space: normal;
-    text-align: left;
+  color: #878e96;
+  font-size: 1rem;
+  line-height: 1.5em;
+  white-space: normal;
+  text-align: left;
 }
 
-.div-block-100{
-    width: 50%;
+.div-block-100 {
+  width: 50%;
 }
 
-.h-testimonial-small-client-info{
-    display: flex;
-    align-items: center;
-    margin-top: 1em;
+.h-testimonial-small-client-info {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
 }
 
 .text-span {
-    color: #353a40;
-    font-weight: 600;
+  color: #353a40;
+  font-weight: 600;
 }
 
-.mr-16{
-    margin-right: 16px;
+.mr-16 {
+  margin-right: 16px;
 }
 
-.features_company{
-
-    background-color: #F7F7F7;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom:2px solid #E9ECEF;
+.features_company {
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e9ecef;
 }
 
-#carouselExampleInterval{
-    margin-bottom: 10%;
+#carouselExampleInterval {
+  margin-bottom: 10%;
+}
+
+/* Button */
+button {
+  margin-top: 1.5em;
+  padding: 1em 3em; 
+  border-color: #31a8fe;
+  background-color: #31a8fe;
+  width: 204px;
+  height: 58px;
+ 
 }
